@@ -1082,3 +1082,8 @@ cursor:pointer;
 }
 
 
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #000;
+}
