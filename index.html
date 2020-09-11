@@ -1,41 +1,878 @@
 ---
-layout: default
-desc: "Find it here UltraNebula."
+layout: landing
 ---
 
-{% include patterns/banner/banner.html %}
+<div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+	<ol class="carousel-indicators">
+		<li data-target="#carousel" data-slide-to="0" class="active"></li>
+		<li data-target="#carousel" data-slide-to="1"></li>
+		<li data-target="#carousel" data-slide-to="2"></li>
+	</ol>
+	
+	<div class="carousel-inner" role="listbox">
+		<div class="item active">
+		  <div class="carousel-caption">
+			  <div class="aos-item" data-aos="fade-up"
+				  data-aos-duration="9000">      
+			  <h1>We supply Audio-Visual and Communication systems.</h1>
+			  <h2>Our systems are designed to be discrete, easy to use and reliable.</h2>
+		  </div>
+		</div>
+		</div>
+		<div class="item">
+  
+		  <div class="carousel-caption">
+			<h1>Take your life to the next level.</h1>
+			<h2>Why not let us breakdown all the jargon and technical terms and do what we do best.</h2>
+		  </div>
+		</div>
+		<div class="item">
+		  <div class="carousel-caption">
+			
+		   <h1>Like to see something different?</h1>
+  
+			<h2>We can provide complete solutions for homes, offices and businesses that satisfy our clients expectations.</h2>
+		  </div>
+		</div>
+	  </div>
+  
+	<!-- Carousel nav -->
+	<a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
+	<a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
+  </div>
 
-<main role="main">
-  <section class="gutter-1-2 pad-t-2 push-2">
-    <h2 class="text-center push-0 exa">{{site.data.home.cottages.title}}</h2>
-    <p class="text-center italic giga">{{site.data.home.cottages.text}}</p>
-
-    <div class="grid">
-      {% assign all_cottages = site.cottages | reverse %}
-      {% for cottage in all_cottages limit:3 %}
-        <div class="unit [ xs-1 s-1 m-1-3 ] island-1-4">
-          {% include patterns/cards/cottage.html data=cottage %}
-        </div>
-      {% endfor %}
+  <div class="container-ipad" id="light-purple">
+    <div class="row text-center">
+      <div class="col-md-12">
+        <img src="./img/ipad-btn-mod.png" alt="" style="width:70%">
+      </div>
     </div>
+  </div>
 
-    <div class="text-center gutter-1-2 pad-t">
-      {% include patterns/buttons/button.html text=site.data.home.cottages.button url="/cottages/" extraclasses="btn-ghost giga" %}
+
+<div class="container-front" id="bg-gradient">
+<div class="row text-center">
+  <div class="col-md-12">
+  <h2 class="white"><strong>We provide unique audio-visual and integration solutions that change the way you live and work.</strong></h2>
+  <h2 class="white">Our products &amp; services are second to none and have kept our clients happy throughout</h2>
+  </div>
+ </div>	
+</div>
+
+	<div class="container-fluid" id="products">
+		<div class="row text-center">
+			<div class="col-md-12">
+				<h1 class="light">Products</h1>
+			</div>
+		</div>	
+	</div>
+	<div class="svg-colour">
+		<svg width="100%" viewBox="10 10 45 10">
+		<polygon points="0,0 0,9 110,20"/>
+		</svg>
+	</div>
+
+<div class="aos-item" data-aos="fade-down">
+<div class="container up">
+<div class="row destacados">
+  <div class="col-md-3">
+      <div>
+         <a href="https://www.crestron.com">
+      <img src="./img/crestron_logo.png" alt="Crestron" class="img-circle img-thumbnail"></a>
+      <p>Crestron</p>
     </div>
-  </section>
+  </div>
 
-  <hr>
+  <div class="col-md-3">
+    <div>
+       <a href="https://www.lutron.com">
+      <img src="./img/lutron-logo.png" alt="Lutron" class="img-circle img-thumbnail"></a>
+      <p>Lutron</p>
+    </div>
+  </div>
 
-  <section class="gutter-1 pad-t-2 pad-b-2 max-length">
-    <h2 class="text-center push-0 exa">{{site.data.home.blog.title}}</h2>
-    <p class="text-center italic giga">{{site.data.home.blog.text}}</p>
+  <div class="col-md-3">
+    <div>
+       <a href="https://www.rticorp.com">
+      <img src="./img/rti_logo.png" alt="RTI" class="img-circle img-thumbnail"></a>
+      <p>RTI</p>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div>
+      <a href="https://rakocontrols.com/">
+      <img src="./img/rako-logo.png" alt="Rako Wireless" class="img-circle img-thumbnail"></a>
+      <p>Rako Wireless</p>
+    </div>
+  </div>
+</div>
+</div>
+</div>
 
-    {% for post in site.posts limit:2 %}
-      <article class="">
-        {% include patterns/cards/post.html data=post %}
-      </article>
-    {% endfor %}
+<div class="aos-item" data-aos="fade-down">
+<div class="container">
+<div class="row destacados">
+  <div class="col-md-3">
+      <div>
+        <a href="https://www.oculus.com">
+      <img src="./img/oculus-logo.jpg" alt="Oculus" class="img-circle img-thumbnail"></a>
+      <p>Oculus</p>
+    </div>
+  </div>
+<div class="col-md-3">
+    <div>
+      <a href="https://www.wyrestorm.com">
+      <img src="./img/wyrestorm-logo.png" alt="Wyrestorm" class="img-circle img-thumbnail"></a>
+      <p>Wyrestorm</p>
+    </div>
+  </div>
+<div class="col-md-3">
+    <div>
+      <a href="https://www.ruckuswireless.com">
+      <img src="./img/ruckus_logo.png" alt="Ruckus Wireless" class="img-circle img-thumbnail"></a>
+      <p>Ruckus Wireless</p>
+    </div>
+  </div>
+<div class="col-md-3">
+    <div>
+      <a href="https://www.cobham.com">
+      <img src="./img/seatel_logo.png" alt="SeaTel" class="img-circle img-thumbnail"></a>
+      <p>SeaTel</p>
+    </div>
+  </div>
+</div>
+</div>
+</div>
 
-    {% include patterns/buttons/button.html text=site.data.home.blog.button url="/blog/" extraclasses="btn-ghost" %}
-  </section>
-</main>
+<div class="svg-colour">
+<svg width="100%" viewBox="20 1 40 10">
+	<polygon points="0,0 0,9 110,20"/>
+	</svg>
+</div>
+
+<div class="container-front" id="bg-gradient">
+<div class="row text-center">
+  <div class="col-md-12">
+    <h2 class="white"><strong>These are our services.</strong></h2>
+    <h2 class="white">Your imagination is for you to decide.</h2>
+  </div>
+</div>	
+</div>
+
+<div class="container-fluid" id="services">
+	<div class="row text-center">
+		<div class="col-md-12">
+			<h1 class="light">Services</h1>
+		</div>
+	</div>	
+</div>
+
+<div class="container">
+	<div class="row">
+	<div class="col-md-12">	
+	<div class="caption">
+	
+	<p><strong>We've been building smart homes for over 20 years</strong></p>
+	
+	</div>
+	
+	<p>CB Digital specialise in Home Cinema installations, Multi-room Audio, Lighting and Heating Control Systems and much more. We also plan, design and install high quality Integrated Homes.</p>
+	
+	<p>We promise not to 'blind you with science' and will make sure everything is explained in a clear and understandable way.</p>
+	
+	</div>
+	</div>
+	</div>
+	
+	<hr>
+
+<!-- row 1.1-->
+
+<div id="comms">
+	<!-- Your content goes here -->
+	</div>
+
+	<div class="aos-item" data-aos="fade-up">  
+	
+	<div class="container-full">
+	<div class="row no-gutters">
+		<div class="col-lg-6 push-lg-6">
+	  <img src="./img/boat-sat.jpg" class="img-fluid" alt="Comms"><h2></h2>
+	</div>	
+	<!--end col -->
+	<!-- row 1.2 -->
+		<div class="col-lg-6 pull-lg-6">
+		<div class="spacing">
+	  <p><strong>Communications</strong></p>
+	  <p>We know that your communications service need to be reliable. Being able to communicate effectively is the most important of all life skills.
+	  Communication is simply the act of transferring information from one place to another, whether this be vocally (using voice), written (using printed or digital media such as books, magazines, websites or emails), visually (using logos, maps, charts or graphs) CB Digital strive to deliver these skills to the Individual home user or the Business users of 2015.</p>
+	  </div>
+	</div>
+	<!--end row -->
+	<hr>
+	</div>
+	</div>
+	<!-- row 2.1 -->
+	
+	<div id="network">
+	<!-- Your content goes here -->
+	</div>
+	<div class="container-full">
+	<div class = "row no-gutters">
+		<div class="col-lg-6 pull-lg-6">
+		<div class="spacing">
+		<p><strong>Networking &amp; I.T</strong></p>
+		<p>A computer network or data network is a telecommunications network which allows computers to exchange data. In computer networks, networked computing devices exchange data with each other along network links (data connections). The connections between nodes are established using either cable media or wireless media. C B Digital Supply and Install systems for all types of users.</p>		
+		</div>
+	</div>
+	<!--end col -->
+	<!-- row 2.2 -->					
+	<div class="col-lg-6 push-lg-6">
+		<img src="./img/networking.png" class="img-fluid" alt="Networking"><a href="./contact"><h2></h2></a>
+	 </div>
+	</div><!--end row -->
+	</div><!--end col -->
+	
+	<!-- row 3.1 -->
+	
+	<div id="intelligent-lighting">
+	<!-- Your content goes here -->
+	</div>
+	<div class="container-full">
+	<div class = "row no-gutters">
+	<div class = "col-lg-6 push-lg-6">
+	  <img src="./img/smartlight.png" class="img-fluid" alt="Intelligent Light"><a href="./contact"><h2></h2></a>
+	</div>
+	<!--end col -->
+	<!-- row 3.2 -->
+	<div class="col-lg-6 pull-lg-6">
+		<div class="spacing">
+	<p><strong>Intelligent Lighting</strong></p>
+	<p>Every room in your home has its own style, its own decor, and its own distinctive personality.Yet to bring out the individual beauty of each of those rooms, they need their own unique lighting.</p>
+	<p>Lighting that can dim to create a softer mood, or to liven things up. In fact, the type of lighting you create in a room can virtually redecorate it, giving you and your guests a whole new way to see your home.</p>		
+	</div>
+	</div>
+	</div><!--end col -->
+	</div><!--end row -->
+	
+	
+	<!-- row 4.1 -->		
+	
+	<div id="control-systems">
+	<!-- Your content goes here -->
+	</div>
+	<div class="container-full">	
+	<div class = "row no-gutters">
+	 <div class = "col-lg-6 pull-lg-6">
+		<div class="spacing">
+			<p><strong>Control Systems</strong></p>
+			<p>A good control system is vital to ensure every piece of equipment communicates and functions as it should, and doesn’t cause confusion to the user. This is why we install intuitive touch displays with simple tactile buttons.</p>
+			<p>The control system only interprets how it is programmed and is why we make sure our programmer are proficiently trained to cope with the demands of our clients. By combining all the equipment with pre-programming sequences it can dim the lights, close the curtains, drop down the screen and select a movie from the touch of one button. By doing this it ensures the ultimate user experience.</p>
+		</div>
+	</div>
+	<!--end col -->	 	
+	<!-- row 4.2 -->
+	<div class = "col-lg-6 push-lg-6">
+		<img src="./img/control.png" class="img-fluid" alt="Control"><a href="./contact"><h2></h2></a>
+	</div>
+	</div><!--end col -->
+	</div><!--end row-->
+	
+	<!-- row 5.1 -->
+	
+	<div id="automation">
+	<!-- Your content goes here -->
+	</div>
+	<div class="container-full">	
+	<div class = "row no-gutters">
+	 <div class = "col-lg-6 pull-lg-6">
+			<img src="./img/automation.png" class="img-fluid" alt="Automation"><a href="./contact"><h2></h2></a>
+	</div>
+	<!--end col -->
+	<!-- row 5.2 -->
+	<div class = "col-lg-6 push-lg-6">
+		<div class="spacing">
+		<p><strong>Automation</strong></p>
+		<p>Our work is creative, cutting-edge, innovative and highly effective. That’s its streamlined structure provides us with the flexibility to deliver excellent work in minimal time, and to tailor campaigns on an on-going basis according real-time analytics. We continuously measure the results of our initiatives to ensure that they deliver against our clients’ brand and business objectives. We create meaningful communication that transcends the digital divide, and engages audiences in all spheres of society.</p>			
+		<p>Nest Thermostat, (Illustrated) enables user to control room or rooms over the net worldwide</p>
+	</div>
+	</div>	
+	</div><!--end row -->
+	</div><!--end col -->
+	
+	<!-- row 6.1 -->
+	
+	<div id="home-cinema">
+	<!-- Your content goes here -->
+	</div>
+	<div class="container-full">	
+	<div class = "row no-gutters">
+	<div class = "col-lg-6 push-lg-6">
+		<div class="spacing">
+			<p><strong>Home Cinema</strong></p>
+			<p>We can help with the design and planning to create your own Cinema at home. Basic packages include stereo systems going through to high end state of the art technology complex 5.1 or 7.1 surround systems, we will ensure you maximise your budget and get the best out of the equipment. Our installation service includes full and comprehensive demonstration of the equipment giving you the confidence to use it once we have left.</p>
+			<p>Using state of the art technology  here at CB Digital Ltd Home Installations we can help you create a home cinema for your home. Home cinema is a set of AV equipment connected and calibrated together to give you movie theatre quality sound in your home. Our experts can advise on the best system for your requirements and room size.</p>
+			</div>						
+	</div><!--end col -->
+	 
+	<!-- row 6.2 -->		 	
+	<div class = "col-lg-6 pull-lg-6">
+		<img src="./img/home-cinema-services.png" class="img-fluid" alt="Home Cinema"><a href="./contact"><h2></h2></a>
+	</div>
+	</div><!--end row-->
+	</div><!--end col -->
+	
+	<!-- row 7.1 -->
+	
+	<div id="programming-coding">
+	<!-- Your content goes here -->
+	</div>
+	<div class="container-full">	
+	<div class = "row no-gutters">
+	 <div class = "col-lg-6 pull-lg-6">
+	  <img src="./img/workspace.png" class="img-fluid" alt="Progamming"><a href="./contact"><h2></h2></a>
+	</div>
+	<!--end col --> 
+	<!-- row 7.2 -->	 
+	<div class = "col-lg-6 push-lg-6">
+	<div class="spacing">
+	<p><strong>Programming &amp; Coding</strong></p>
+	<p>We at CB Digital have programming engineers for programming Crestron and RTI Controllers, Lutron Lighting, Rako Lighting systems and system programming. 2015 we will be adding coding and web design that require front-end developers and designers.</p>
+	</div>
+	</div>	
+	</div><!--end col -->
+	</div><!--end row -->
+	
+	<!-- row 8.1 -->
+	
+	<div id="aftercare">
+	<!-- Your content goes here -->
+	</div>
+	<div class="container-full">	
+	<div class = "row no-gutters">
+	 <div class = "col-lg-6 push-lg-6">
+		<div class="spacing">
+			<p><strong>Aftercare</strong></p>
+			<p>At CB Digital we can connect over the network to provide built proof reliably.</p>
+			</div>
+	</div><!--end col -->
+	<!-- row 8.2 -->
+	<div class = "col-lg-6 pull-lg-6">
+		<img src="./img/workspace.png" class="img-fluid" alt="Cinema"><a href="./contact"><h2></h2></a>	
+	</div>
+	</div><!--end col -->
+	</div><!--end row-->
+
+	</div>
+	
+
+<div class="container-fluid" id="projects">
+	<div class="row text-center">
+		<div class="col-md-12">
+			<h1 class="light">Projects</h1>
+		</div>
+	</div>	
+</div>
+
+<!--<div class="container">
+	<div class="row text-center">
+		<div class="col-md-12">			
+			<nav aria-label="breadcrumb">
+			  <ol class="breadcrumb">
+			    <li class="breadcrumb-item"><a href="./">Home</a></li>
+			    <li class="breadcrumb-item active" aria-current="page">Projects</li>
+			  </ol>
+			</nav>
+		</div>
+	</div>
+</div>-->
+
+<div class="filler"></div>
+
+<!--Portfolio-->
+
+<div class="aos-item" data-aos="fade-up">
+<div class="container-4">
+	<div class="container">
+	 	<div class = "row text-center">
+		 	<div class = "col-xs-6 col-md-3">
+				<div class="box-colour">
+					<p><strong>Timberyard WC2</strong></p>
+          <img src="./img/ty.png" class="img-fluid" alt="Timberyard WC2">
+					<div class="item-btn">
+						<a class="click-btn btn-outline-secondary" href="./projects/ty-wc2" role="button">VIEW MORE</a>
+					</div>	
+				</div>	
+			 </div>	<!--end col -->
+					
+			<div class = "col-xs-6 col-md-3">
+					
+					<div class="box-colour">
+						<p><strong>Timberyard W1</strong></p>
+          <img src="./img/ty-soho.jpg" class="img-fluid" alt="Timberyard W1">
+					<div class="item-btn">
+						<a class="click-btn btn-outline-secondary" href="./projects/ty-w1" role="button">VIEW MORE</a>
+					</div>
+				</div>
+		 	</div>	<!--end col -->
+		 			
+			<div class = "col-xs-6 col-md-3">	
+					<div class="box-colour">
+						<p><strong>Timberyard EC2</strong></p>
+          <img src="./img/ty-os.png" class="img-fluid" alt="Timberyard EC1">
+          
+					<div class="item-btn">
+						<a class="click-btn btn-outline-secondary" href="./projects/ty-ec1" role="button">VIEW MORE</a>
+					</div>
+				</div>
+		 	</div><!--end col -->	
+					
+			<div class = "col-xs-6 col-md-3">		
+					<div class="box-colour">
+						<p><strong>Apartment SW1</strong></p>
+<img src="./img/apartment-sw1-bath.png" class="img-fluid" alt="Apartment SW1">
+<div class="item-btn">
+						<a class="click-btn btn-outline-secondary" href="./projects/ap-sw1" role="button">VIEW MORE</a>
+					</div>
+					</div>
+		 		</div>	<!--end col -->
+		 	</div><!--end row -->
+		 <hr>
+	</div>	
+</div>
+</div>
+
+<div class="aos-item" data-aos="fade-down">
+<div class="container-4">
+	<div class="container">
+	 	<div class = "row text-center">
+		 	<div class = "col-xs-6 col-md-3">
+				<div class="box-colour">
+					<p><strong>Alcazaba Beach - Spain</strong></p>
+          <img src="./img/al-beach-out.png" class="img-fluid" alt="Alcazaba Beach Spain">
+					<div class="item-btn">
+						<a class="click-btn btn-outline-secondary" href="./projects/alcazaba" role="button">VIEW MORE</a>
+					</div>	
+				</div>	
+		 	</div>	<!--end col -->
+					
+			<div class = "col-xs-6 col-md-3">
+					
+					<div class="box-colour">
+						<p><strong>Casa Mia France</strong></p>
+          <!--<img src="./img/casa-mia.png" class="img-responsive center-block" alt="Casa Mia France">-->
+          <img src="./img/casa-mia.png" class="img-fluid" alt="Casa Mia France">
+					<div class="item-btn">
+						<a class="click-btn btn-outline-secondary" href="./projects/casa-mia" role="button">VIEW MORE</a>
+					</div>
+				</div>
+		 	</div>	<!--end col -->
+		 			
+			<div class = "col-xs-6 col-md-3">	
+					<div class="box-colour">
+						<p><strong>Lion Heart Yacht</strong></p>
+          <!--<img src="./img/lion-heart-front-yacht.png" class="img-responsive center-block" alt="Lion Heart Yacht">-->
+          <img src="./img/lion-heart-front-yacht.png" class="img-fluid" alt="Lion Heart Yacht">
+					<div class="item-btn">
+						<a class="click-btn btn-outline-secondary" href="./projects/lion-heart" role="button">VIEW MORE</a>
+					</div>
+				</div>
+		 	</div><!--end col -->	
+					
+			<div class = "col-xs-6 col-md-3">		
+					<div class="box-colour">
+						<p><strong>Apartment SW6</strong></p>
+          <!--<img src="./img/nick.png" class="img-responsive center-block" alt="Apartment SW6">-->
+          <img src="./img/nick.png" class="img-fluid" alt="Apartment SW6">
+          <div class="item-btn">
+						<a class="click-btn btn-outline-secondary" href="./projects/ap-sw6" role="button">VIEW MORE</a>
+					</div>
+					</div>
+		 		</div>	<!--end col -->
+		 	</div><!--end row -->
+		 <hr>
+	</div>	
+</div>
+</div>
+
+<!--Journey-->
+
+<div class="container-fluid" id="journey">
+	<div class="row text-center">
+		<div class="col-md-12">				
+			<h1 class="light">Journey</h1>	 
+		</div>
+ 	</div>	
+</div>
+
+<!--<div class="container">
+	<div class="row text-center">
+		<div class="col-md-12">
+			<nav aria-label="breadcrumb">
+			  <ol class="breadcrumb">
+			    <li class="breadcrumb-item"><a href="./">Home</a></li>
+			    <li class="breadcrumb-item active" aria-current="page">The Journey</li>
+			  </ol>
+			</nav>
+		</div>
+	</div>
+</div>-->
+
+<div class="filler"><h2>C.B Digital - constantly striving to be one step ahead in technology.</h2></div>
+
+<div class="container-full">
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+			  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+			  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+			</ol>
+			<div class="carousel-inner">
+			  <div class="carousel-item active">
+				<img class="d-block w-100" src="./img/phone-expo.png" alt="First slide">
+				<div class="spacing">
+					<p><strong>1985 - 1990</strong></p>
+			<p>With our long history in the industry that began in mobile and satellite communications in 1985 and has evolved over the past years into providing technologies such as intelligent lighting, automation and entertainment systems.</p>
+			<p>Our expertise in the smart home and custom install market has found us providing systems not only in the U.K but to clients around the world including France, Italy, Spain, Russia & Middle East to name a few</p>
+		</div>
+		</div>
+			  	<div class="carousel-item">
+				<img class="d-block w-100" src="./img/sat-kuwait.png" alt="Second slide">
+				<div class="spacing">
+					<p><strong>1985 - 1990</strong></p>
+			<p>We were one of a leading companies to provide satellite for both TVRO (Television Receive Only) and Data Services. 
+					In 1985 we cherish the idea of making a new concept that was not acceptable apart from early adopters. As a company that prides ourselves on good service we knew that our company would go from strength to strength.</p>
+					
+			<p>Our products included SMATV (Satellite Master Antenna Television) for hotels, fixed dishes for single channel, motorised dishes for multi-site applications.</p>
+					
+			<p>In 1990 our mobile network sections of the company included car installations and voice recognition. We needed to be a leading edge company, so in 1995 we took the plunge in plasma TVs and were impressed with their flatness and reduce weight. This was a major breaking point in technology and our customers were fully impressed.
+					The plasma screen provided something that the market had never seen, and was different from what has come before.</p>
+		</div>
+		</div>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="./img/plasma.png" alt="Third slide">
+				<div class="spacing">
+					<p><strong>1985 - 1990</strong></p>
+			<p>As our reputation grew we had to show our worth and in 1998 we provided audio-visual, TVRO and automation for the home and office. CB Digital knew that this was a big step forward and knew the future was bright. We then took on yachts that were over 100' feet long. This was uncommon to see a boat of this magnitude in those days. We were contracted to take on the AV, that included surround sound, plasma TVs with TVRO and data satellite.</p>
+		</div>
+		</div>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="./img/web.png" alt="Fourth slide">
+				<div class="spacing">
+					<p><strong>1985 - 1990</strong></p>
+			<p>In 2000 something had caught our imagination, it was the Internet! The World Wide Web provided endless possibilities and had many benefits to our lives and would be the forefront of what we do, say and work.</p>
+			<p>As this grew we have ventured in to cloud Technology to serve many parts of the business, that include web hosting, email and critical backup.</p>
+		</div>
+		</div>
+			  <div class="carousel-item">
+				<img class="d-block w-100" src="./img/lionheart-bed.png" alt="Fifth slide">
+				<div class="spacing">
+					<p><strong>1985 - 1990</strong></p>
+			<p>It was realised that clients demanded a more bespoke service that integrated audio, visual and communications into their homes, and from this need we lead the way to providing a discrete, simple to use solution that gives outstanding service.</p>
+		
+			<p>From this long term experience we can guide you through the process of planning and choosing the right system, and minimise any headaches associated with the technical aspect of a job.</p>
+		
+			<p>Whilst dealing in both domestic and commercial markets we can provide a high level of service and work closely with architects, consulting engineers, designers and builders from concept to completion stage.</p>
+		
+			<p>What makes us different? We are fully committed on all levels of technology. We endeavour to commit to our strengths and know that our clients are our number one priority.</p>
+			</div>
+		</div>
+	</div>
+
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			  <span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			  <span class="sr-only">Next</span>
+			</a>
+		  </div>
+		</div>
+
+   
+<!--<h2 class="dark">1985 - 1990</h2>
+	<img src="./img/phone-expo.png" class="img-responsive center-block" alt="Moblie Phone Expo">
+		<div class="container" id="left-text">
+			<div class="row">
+				<div class="col-md-12">	
+		        <p>With our long history in the industry that began in mobile and satellite communications in 1985 and has evolved over the past years into providing technologies such as intelligent lighting, automation and entertainment systems.</p>
+		        
+			   <p>Our expertise in the smart home and custom install market has found us providing systems not only in the U.K but to clients around the world including France, Italy, Spain, Russia & Middle East to name a few</p>
+			   
+				</div>
+			</div>
+		</div>
+      </li>
+      <li>
+      <h2 class="dark">1990 - 1995</h2>
+      <img src="./img/sat-kuwait.png" class="img-responsive center-block" alt="Satellite Installtion Kuwait">
+	  <div class="container" id="left-text">
+	<div class="row">
+		<div class="col-md-12">
+		         <p>We were one of a leading companies to provide satellite for both TVRO (Television Receive Only) and Data Services. 
+		In 1985 we cherish the idea of making a new concept that was not acceptable apart from early adopters. As a company that prides ourselves on good service we knew that our company would go from strength to strength.</p>
+		
+		<p>Our products included SMATV (Satellite Master Antenna Television) for hotels, fixed dishes for single channel, motorised dishes for multi-site applications.</p>
+		
+				<p>In 1990 our mobile network sections of the company included car installations and voice recognition. We needed to be a leading edge company, so in 1995 we took the plunge in plasma TVs and were impressed with their flatness and reduce weight. This was a major breaking point in technology and our customers were fully impressed.
+		The plasma screen provided something that the market had never seen, and was different from what has come before.</p>
+				</div>
+			</div>
+		</div>
+      </li>
+      <li>
+      <h2 class="dark">1995 - 2000</h2>
+      <img src="./img/plasma.png" class="img-responsive center-block" alt="First Plasma Screen">
+		<div class="container" id="left-text">
+			<div class="row">
+				<div class="col-md-12">
+		      <p>As our reputation grew we had to show our worth and in 1998 we provided audio-visual, TVRO and automation for the home and office. CB Digital knew that this was a big step forward and knew the future was bright. We then took on yachts that were over 100' feet long. This was uncommon to see a boat of this magnitude in those days. We were contracted to take on the AV, that included surround sound, plasma TVs with TVRO and data satellite.</p>
+				</div>
+			</div>
+		</div>
+      </li>
+      <li>
+      <h2 class="dark">2000 - 2005</h2>
+    <img src="./img/web.png" class="img-responsive center-block" alt="Networking">
+		<div class="container" id="left-text">
+			<div class="row">
+				<div class="col-md-12">
+					<p>In 2000 something had caught our imagination, it was the Internet! The World Wide Web provided endless possibilities and had many benefits to our lives and would be the forefront of what we do, say and work.</p>
+			  		<p>As this grew we have ventured in to cloud Technology to serve many parts of the business, that include web hosting, email and critical backup.</p>
+				</div>
+			</div>
+		</div>
+      </li>
+    <li>
+    <h2 class="dark">2005 - 2015</h2>
+    <img src="./img/lionheart-bed.png" class="img-responsive center-block" alt="Lion Heart Bedroom">
+		<div class="container" id="left-text">
+			<div class="row">
+				<div class="col-md-12">
+		    <p>It was realised that clients demanded a more bespoke service that integrated audio, visual and communications into their homes, and from this need we lead the way to providing a discrete, simple to use solution that gives outstanding service.</p>
+		
+			<p>From this long term experience we can guide you through the process of planning and choosing the right system, and minimise any headaches associated with the technical aspect of a job.</p>
+		
+			<p>Whilst dealing in both domestic and commercial markets we can provide a high level of service and work closely with architects, consulting engineers, designers and builders from concept to completion stage.</p>
+		
+			<p>What makes us different? We are fully committed on all levels of technology. We endeavour to commit to our strengths and know that our clients are our number one priority.</p>
+				</div>
+			</div>
+		</div>
+      </li>
+    </ul>
+  </div>
+</section>-->
+
+<!--Clients-->
+
+<div class="container-fluid" id="clients">
+	<div class="row text-center">
+		<div class="col-md-12">
+			<h1 class="light">Clients</h1>
+		</div>
+	</div>	
+</div>
+
+<!--<div class="container">
+	<div class="row text-center">
+		<div class="col-md-12">
+			<nav aria-label="breadcrumb">
+			  <ol class="breadcrumb">
+			    <li class="breadcrumb-item"><a href="./">Home</a></li>
+			    <li class="breadcrumb-item active" aria-current="page">Clients</li>
+			  </ol>
+			</nav>
+		</div>
+	</div>
+</div>-->
+
+<div class="container">
+	<div class="row destacados">
+		<div class="col-md-4">
+    		<div>
+	    		<a href="https://www.theritzclub.com">
+				<img src="./img/ritz.png" alt="The Ritz" class="img-circle img-thumbnail"></a>
+    		<p>The Ritz Club</p>
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div>
+				<a href="./">
+				<img src="./img/ty-logo.png" alt="Timberyard" class="img-circle img-thumbnail"></a>
+				<p>Timberyard</p>
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div>
+				<a href="https://www.champneys.com">
+				<img src="./img/champneys.png" alt="Champneys" class="img-circle img-thumbnail"></a>
+				<p>Champney's</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="container">
+	<div class="row destacados">
+		<div class="col-md-4">
+    		<div>
+	    		<a href="https://www.mcdonalds.com">
+				<img src="./img/mcdonalds.png" alt="McDonald's" class="img-circle img-thumbnail"></a>
+				<p>McDonald's</p>
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div>
+				<a href="https://www.hilton.com">
+				<img src="./img/hilton.png" alt="Hilton" class="img-circle img-thumbnail"></a>
+				<p>Hilton</p>
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div>
+				<a href="https://www.vodafone.com">
+				<img src="./img/vodafone.png" alt="Vodafone" class="img-circle img-thumbnail"></a>
+				<p>Vodafone</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--Accreditions-->
+
+	<div class="container-fluid" id="accreditions">
+		<div class="row text-center">
+			<div class="col-md-12">
+				 <h1 class="light">Accreditions</h1>
+			</div>
+	 	</div>	
+	</div>
+
+<!--<div class="container">
+	<div class="row text-center">
+		<div class="col-md-12">
+			<nav aria-label="breadcrumb">
+			  <ol class="breadcrumb">
+			    <li class="breadcrumb-item"><a href="./">Home</a></li>
+			    <li class="breadcrumb-item active" aria-current="page">Accreditions</li>
+			  </ol>
+			</nav>
+		</div>
+	</div>
+</div>-->
+
+
+<div class="container">
+	<div class="row destacados">
+		<div class="col-md-4">
+    		<div>
+	    		 <a href="/products.php">
+				<img src="./img/cert.jpg" alt="" class="img-thumbnail"></a>
+				<p>AMX + Crestron</p>
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div>
+				 <a href="/products.php">
+				<img src="./img/cert-seatel-maj1.png" alt="" class="img-thumbnail"></a>
+				<p>SeaTel</p>
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div>
+				<a href="/products.php">
+				<img src="./img/cert-seatel-maj2.png" alt="" class="img-thumbnail"></a>
+				<p>SeaTel</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--Contact Us-->
+	
+<div class="container-fluid" id="contact">
+	<div class = "row text-center">
+		 <div class = "col-md-12">	
+			 <h1 class="light">Contact</h1>			
+		</div>
+	</div>	
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-5">
+			<hr>
+			<ul class="dark">		
+		    <li><h2>Address</h2></li>
+		    <li><h2>Suite 372</h2></li>
+		    <li><h2>19-21 Crawford Street</h2></li>
+		    <li><h2>London</h2></li>
+		    <li><h2>W1H 1PJ</h2></li>
+			</ul>
+		</div>
+		<div class ="col-md-7">
+					<hr>
+					<!-- Begin Mailchimp Signup Form -->
+					<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+					<style type="text/css">
+						#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+						/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+						   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+					</style>
+					<div id="mc_embed_signup">
+					<form action="https://thatviz.us14.list-manage.com/subscribe/post?u=60615ff2f78cf9650ce2fd0d2&amp;id=faa8af4700" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					    <div id="mc_embed_signup_scroll">
+						<h2>Subscribe to our mailing list</h2>
+					<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+					<div class="mc-field-group">
+						<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+					</label>
+						<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+					</div>
+					<div class="mc-field-group">
+						<label for="mce-FNAME">First Name </label>
+						<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+					</div>
+					<div class="mc-field-group">
+						<label for="mce-LNAME">Last Name </label>
+						<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+					</div>
+						<div id="mce-responses" class="clear">
+							<div class="response" id="mce-error-response" style="display:none"></div>
+							<div class="response" id="mce-success-response" style="display:none"></div>
+						</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+					    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_60615ff2f78cf9650ce2fd0d2_faa8af4700" tabindex="-1" value=""></div>
+					    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+					    </div>
+					</form>
+					</div>
+					<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+					
+					        </div>
+					    </div>
+					</form> 
+				</div>
+			</div>
+		 </div>
+
+ 		
+<div class="container">
+	<div class="row text-center">
+		<div class="col-md-12">
+			<div class="embed-responsive embed-responsive-16by9">	     
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9930.968262277043!2d-0.162955!3d51.519264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1442064209202" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+</div>

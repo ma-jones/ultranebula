@@ -1,0 +1,14 @@
+# Site settings
+# title: Thirty Years in Tech - CB Digital
+email: matt@ma-jones.com
+owner: CB Digital Limited
+first_published: 1985
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "https://cbdigitalapp.netlify.app" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+twitter_username:
+github_username:
+
+# Build settings
+markdown: kramdown
