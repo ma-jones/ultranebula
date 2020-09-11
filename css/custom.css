@@ -449,7 +449,11 @@ hr {
 
 .navbar{
 	min-height: 0px;
-	margin-bottom: 0px;
+    margin-bottom: 0px;
+    position: fixed;
+    width: 100%;
+    background-color: #000;
+
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -1082,8 +1086,3 @@ cursor:pointer;
 }
 
 
-.navbar {
-    position: fixed;
-    width: 100%;
-    background-color: #000;
-}
