@@ -1,8 +1,8 @@
 # Site settings
-# title: Thirty Years in Tech - CB Digital
+# title: Years - Ultra Nebula
 email: matt@ma-jones.com
 owner: Ultra Nebula
-first_published: 1985
+first_published: 2019
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "https://ultranebula.netlify.app" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
