@@ -1126,7 +1126,7 @@ cursor:pointer;
   
   .zoom {
 	padding: 50px;
-	background-color: green;
+	background-color: #f7e6ed;
 	transition: transform .2s;
 	width: 200px;
 	height: 200px;
