@@ -53,7 +53,7 @@ body{
 
 
 .navbar-expand-lg {
-	background-image :#1e1e1e,
+	background-image :#1e1e1e;
 	position: fixed;
 	width: 100%;
 	z-index: 15;
