@@ -7,9 +7,10 @@ body{
      padding-bottom: 60px;
 	 background-color: rgba(23, 13, 13, 0);
 	 font-family: 'Anton', sans-serif;
+
 }
 
-.nav-pad {
+.fixed-top {
 	padding: 25px 0px 25px 0px;
 }
 
