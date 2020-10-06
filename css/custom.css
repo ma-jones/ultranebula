@@ -6,6 +6,7 @@ body{
      padding-top: 0px;
      padding-bottom: 60px;
 	 background-color: rgba(23, 13, 13, 0);
+	 font-family: 'Anton', sans-serif;
 
 }
 
@@ -36,12 +37,10 @@ body{
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-	font-family: 'Rubik', sans-serif;
 	letter-spacing: 0.03em;
 }
 
 .navbar-light .navbar-nav .nav-link {
-	font-family: 'Rubik', sans-serif;
 	letter-spacing: 0.03em;
 }
 
@@ -1140,3 +1139,5 @@ cursor:pointer;
   .bg-colour {
 	  background-color: #fae62d;
   }
+
+ 
