@@ -445,7 +445,7 @@ hr {
     margin-bottom: 0px;
     position: fixed;
     width: 100%;
-    background-image :#1e1e1e;
+    background-color:#1e1e1e;
     border-color: rgb(196, 17, 115);
 }
 
@@ -456,8 +456,8 @@ hr {
 }
 
 .navbar-inverse {
-    background-color: #21242B;
-    border-color: #21242B;
+    background-color:#21242B;
+    border-color:#21242B;
     border-bottom-color: #B19B57;
     border-bottom-width: 3px;
 }
