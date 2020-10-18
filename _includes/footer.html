@@ -52,13 +52,13 @@
             <ul class="copyright">
               <li>&copy; {% assign thisyear = site.time | date: "%Y" %}
               {% if site.first_published %}
-                {% capture diff %}{{ site.first_published | minus:thisyear }}{% endcapture %}
-                {% if diff contains '-' %}{{ site.first_published }},{% endif %}
+              {% capture diff %}{{ site.first_published | minus:thisyear }}{% endcapture %}
+              {% if diff contains '-' %}{{ site.first_published }},{% endif %}
               {% endif %}
               {{ thisyear }}
               {% if site.owner %}{{ site.owner }}{% else %}{{ site.title }}{% endif %}</li>
-              <li>Design: <a href="https://thatviz.com" target="_blank">ThatViz For CB Digital Limited </a></li>
-              <li>Built with: <a href="https://cbdigital.co.uk" target="_blank">Bootstrap, GitHub &amp; Jekyll &raquo;</a></li>
+              <li>Design: <a href="https://thatviz.com" target="_blank">ThatViz For UltraNebula</a></li>
+              <li>Built with: <a href="https://ultranebula.com" target="_blank">Bootstrap, GitHub &amp; Jekyll &raquo;</a></li>
             </ul>
 
            </div>
