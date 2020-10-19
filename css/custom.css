@@ -838,6 +838,6 @@ transition-delay:.2s;
 	  background-color: #fae62d;
   }
 
-  .maj-padding {
-    padding: 30px;
+  .btn-warning {
+    padding: 0px 20px 0px 20px;
 }
