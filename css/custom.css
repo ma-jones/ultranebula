@@ -919,15 +919,13 @@ transition-delay:.2s;
     background-color: #fff;
 }
 
-.hideme
+/*.hideme
 {
     opacity:0;
 }
 
 
-/*-------------------------------*/
-
-/*.gallery {
+.gallery {
 	width:300px;
 	height:200px;
 	position: relative;
