@@ -841,4 +841,6 @@ transition-delay:.2s;
 	  background-color: #fae62d;
   }
 
- 
+  .fixed-top {
+    padding: 30px;
+}
