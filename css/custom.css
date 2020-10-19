@@ -199,13 +199,8 @@ li .colour {
 
 .light {
     background-image: url("../img/tra.svg");
-    /*background-color: rgba(130, 52, 168, 0.47);
-    margin-left: 30%;
-    margin-right: 30%;*/
     margin-top: -155px;
     margin-bottom: -100px;
-    /*margin-bottom: 30%;
-    border-radius: 5px;*/
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -359,7 +354,7 @@ hr {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #563c90;
+    background-color: #ffd100
 }
 
 .container-ipad {
@@ -374,78 +369,8 @@ hr {
 /* Images
 -------------------------------------------------- */
 
-#crestron {
-	background-image: url("../img/crestron-showroom.png");
-}
-#rti {
-	background-image: url("../img/rti-products.jpg");
-}
-
-#lutron {
-	background-image: url("../img/rti-products.jpg");
-}
-
-#wyrestorm {
-	background-image: url("../img/rti-products.jpg");
-}
-
-#sonos {
-	background-image: url("../img/rti-products.jpg");
-}
-
-#ruckus-wireless {
-	background-image: url("../img/rti-products.jpg");
-}
-
-#brands {
-	background-image: url("../img/rti-products.jpg");
-}
-
-#projects {
-	background-image: url("../img/ty-soho-up.jpg");
-}
-
-#services {
-	background-image: url("../img/lionheart-int.png");
-}
-
-#about {
-	background-image: url("../img/apartment-sw1-lounge.png");
-}
-
-#journey {
-	background-image: url("../img/boat-sat.jpg");
-}
-
-#products {
-	background-image: url("../img/ty-soho-up.jpg");
-}
-
-
-#left-text {
-	text-align: left;
-}
-
-#contact {
-	background-image: url("../img/world-map.svg");
-}
-
-#ap-sw1{
-	background-image: url("../img/apartment-sw1-lounge.png");
-}
-
-#ty-w1{
-	background-image: url("../img/ty-soho.jpg");
-}
-
-#ty-wc2{
-	background-image: url("../img/ty-mediaroom.png");
-}
-
-#accreditions {
-	background-image: url("../img/cert.jpg");
-}
-
+/* 404
+-------------------------------------------------- */
 
 #404 {
 	background-image: url("../img/zig-zag.jpg");
