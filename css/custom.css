@@ -834,10 +834,6 @@ transition-delay:.2s;
 	transform: scale(1.5); 
   }
 
-  .bg-colour {
+  /*.bg-colour {
 	  background-color: #fae62d;
-  }
-
-  .btn-warning {
-    padding: 0px 20px 0px 20px;
-}
+  }*/
