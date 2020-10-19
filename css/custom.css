@@ -52,13 +52,6 @@ body{
 	letter-spacing: 0.03em;
 }
 
-.breadcrumb-item {
-	color: #f9f9f9;}
-
-.breadcrumb-item.active {
-	color: #000;}
-
-
 .navbar-expand-lg {
 	position: fixed;
 	width: 100%;
@@ -74,9 +67,6 @@ body{
 }
 
 .container-link {
-	/*position: relative;
-	text-align: center;
-	color: white;*/
 	padding: 5px;
 	display: inline;
 	left: 50%;
@@ -97,35 +87,6 @@ body{
   .up {
 	margin-top: -100px;
   }
-
-.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
-
-    text-transform: uppercase;
-}
-.navbar-inverse .navbar-nav > li > a {
-
-    text-transform: uppercase;
-}
-.nav > li > a:focus, .nav > li > a:hover {
-
-    text-transform: uppercase;
-}
-
-.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
-
-    text-transform: uppercase;
-
-}
-.dropdown-menu > li > a {
-
-    text-transform: uppercase;
-
-}
-.dropdown-menu > li > a {
-
-    text-transform: uppercase;
-
-}
 
 .navbar-brand > img {
     margin-top: -10px;
@@ -809,47 +770,6 @@ transform:translatey(0);
 transition-delay:.2s;
 }
 
-/* Styles you want to copy across begin here */
-
-.testimonials {
-  background-color: #e8e8e5;
-  overflow: hidden;
-  width: 100%;
-}
-
-.testimonials ul {
-  list-style: none;
-  position: relative;
-  display: flex;
-  /*align-items: center;*/
-  overflow: hidden;
-  padding: 0;
-}
-
-.testimonials ul li {
-  display: inline-block;
-  padding: 1rem;
-  position: relative;
-  text-align: center;
-  width: 100vw;
-}
-
-.testimonials ul li p {
-    max-width: 1130px;
-
-}
-
-.testimonials-control {
-  background-color: rgba(255,255,255,0.2);
-  display: flex;
-  justify-content: center;
-}
-
-.testimonials-control i {
-  cursor: pointer;
-  padding: 1.3rem;
-}
-
 /* iPad button */
 
 .interactive_container .ipad {
@@ -907,65 +827,6 @@ transition-delay:.2s;
 {
     height:auto;
 }
-
-#container DIV
-{
-    margin:50px;
-    padding:50px;
-    background-image: -moz-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
-    background-image: -webkit-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
-    background-image: -ms-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
-    background-image: linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
-    background-color: #fff;
-}
-
-/*.hideme
-{
-    opacity:0;
-}
-
-
-.gallery {
-	width:300px;
-	height:200px;
-	position: relative;
-	   padding: 0;
-	   margin: 0;
-	   text-align: center;
-   }
-
-   .gallery-image{
-cursor:pointer;
-	   position: relative;
-	   display: block;
-   }
-
-   .gallery-text{
-	   position: absolute;
-	   top: 0; right: 0;
-	   bottom: 0; left: 0;
-	   width: 300px;
-	   height: 200px; 
-	   text-align: center;
-	   background-color: rgba(0,0,0,0.8);
-	   opacity: 0;
-	   -webkit-transition: opacity 0.6s;
-	   -moz-transition: opacity 0.6s;
-	   transition: opacity 0.6s;
-	  vertical-align:middle;
-	  line-height:200px;
-   }
-
-   .gallery-text:hover{
-	   opacity: 1;      
-   }
-
-   .gallery-text h3{
-	   color: white;
-	   display: inline-table;
-	  vertical-align:middle;
-	  line-height:100%;            
-   }*/
 
    .blk, h2 {
 	   color:#000;
