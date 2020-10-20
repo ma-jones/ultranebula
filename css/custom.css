@@ -59,7 +59,8 @@ body{
 }
 
 .nav-link {
-	color: #fff !important;
+	color:#000 !important;
+	padding: auto;
 	}
 
 .dropdown:hover .dropdown-menu {
