@@ -802,6 +802,12 @@ transition-delay:.2s;
 	background-image: url("https://ultranebula.com/images/starlink-globe.jpg");
   }
   
+   .para-img-3 {
+		/* override other styles to make responsive */
+		width: 100%    !important;
+		height: auto   !important;
+	  }
+
   .para-img-4 {
 	background-image: url("https://ultranebula.com/images/starlink-globe.jpg");
   }
