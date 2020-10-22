@@ -817,7 +817,7 @@ transition-delay:.2s;
 	justify-content: center;
 	flex-direction: column;
 	color: #f9f9f9;
-	/*margin-top: 260px;*/
+	margin-top: 260px;
 }
 
 * {
