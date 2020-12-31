@@ -1,13 +1,14 @@
-collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: '_posts/'
-    create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: false
-    fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+# Site settings
+# title: UltraNebula
+email: matt@ma-jones.com
+owner: UltraNebula
+first_published: 2020
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "https://ultranebula.com" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+twitter_username:
+github_username:
+
+# Build settings
+markdown: kramdown
