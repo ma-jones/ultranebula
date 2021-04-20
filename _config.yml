@@ -1,10 +1,10 @@
 # Site settings
-# title: UltraNebula
+# title: Ifibre
 email: matt@ma-jones.com
-owner: UltraNebula
-first_published: 2020
+owner: Ifibre
+first_published: 2021
 description: > # this means to ignore newlines until "baseurl:"
-baseurl: "https://ultranebula.com" # the subpath of your site, e.g. /blog/
+baseurl: "https://ifibre.co.uk" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 twitter_username:
